@@ -1,0 +1,67 @@
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 280px;
+  padding-top: 15px;
+  border-bottom: 1px solid #c7c7c7;
+  &__line{
+    border: 1px solid rgb(173, 173, 173);
+  }
+  &__link{
+    text-decoration: none;
+    color: black;
+    &:hover {
+      color:red;
+      transition: color .2s;
+    }
+  }
+  &__link__first{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    color: black;
+    &:hover {
+      color:red;
+      transition: color .2s;
+    }
+  }
+  &__time {
+    margin-top: 3px;
+    font-family: 400 10px/14px Lato Lenta,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #999;
+  }
+  &__body{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c7c7c7;
+  }
+  &__sidebar {
+    display: flex;
+    padding: 12px 0;
+   
+  }
+  &__img__wrap {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin: 5px 0 0 10px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  &__img__firstwrap{
+    position: relative;
+    height: 186px;
+    overflow: hidden;
+  }
+  &__img{
+    width: 40px;
+    height: auto;
+  }
+  &__img__first{
+    width: 100%;
+    height: auto;
+    line-height: 0;
+  }
+}

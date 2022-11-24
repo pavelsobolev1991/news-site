@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: #292929;
+  width: 100%;
+  height: 270px;
+  padding-top: 30px;
+  &__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 80%;
+    height: 270px;
+    padding: 0px 20px;
+    margin: 0 auto;
+  }
+  &__logo {
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+  }
+  &__date {
+    color: white;
+  }
+  &__login {
+    color: white;
+  }
+}
